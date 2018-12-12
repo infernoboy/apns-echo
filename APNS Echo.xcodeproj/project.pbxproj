@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1FF62C5721C18A0000F2DEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF62C5621C18A0000F2DEB1 /* AppDelegate.swift */; };
-		1FF62C5921C18A0000F2DEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF62C5821C18A0000F2DEB1 /* ViewController.swift */; };
-		1FF62C5C21C18A0000F2DEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF62C5A21C18A0000F2DEB1 /* Main.storyboard */; };
+		1FF62C5C21C18A0000F2DEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF62C5A21C18A0000F2DEB1 /* LaunchScreen.storyboard */; };
 		1FF62C5E21C18A0100F2DEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF62C5D21C18A0100F2DEB1 /* Assets.xcassets */; };
-		1FF62C6121C18A0100F2DEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF62C5F21C18A0100F2DEB1 /* LaunchScreen.storyboard */; };
+		1FF62C6121C18A0100F2DEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF62C5F21C18A0100F2DEB1 /* Main.storyboard */; };
+		1FF62C6A21C1944700F2DEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF62C6921C1944700F2DEB1 /* ViewController.swift */; };
+		4F9598D5E6534E3C7F4566CE /* Pods_APNS_Echo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F2BC7864922F4557C39F65 /* Pods_APNS_Echo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16704782B11DF5EA2E91DA83 /* Pods-APNS Echo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APNS Echo.release.xcconfig"; path = "Pods/Target Support Files/Pods-APNS Echo/Pods-APNS Echo.release.xcconfig"; sourceTree = "<group>"; };
 		1FF62C5321C18A0000F2DEB1 /* APNS Echo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APNS Echo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF62C5621C18A0000F2DEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FF62C5821C18A0000F2DEB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FF62C5B21C18A0000F2DEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FF62C5B21C18A0000F2DEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FF62C5D21C18A0100F2DEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1FF62C6021C18A0100F2DEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FF62C6021C18A0100F2DEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FF62C6221C18A0100F2DEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF62C6821C18BC800F2DEB1 /* APNS Echo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "APNS Echo.entitlements"; sourceTree = "<group>"; };
+		1FF62C6921C1944700F2DEB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23F2BC7864922F4557C39F65 /* Pods_APNS_Echo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APNS_Echo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C844176F074D075A663BD3 /* Pods-APNS Echo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APNS Echo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APNS Echo/Pods-APNS Echo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +34,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9598D5E6534E3C7F4566CE /* Pods_APNS_Echo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D4EBFA715884F359A1158B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42C844176F074D075A663BD3 /* Pods-APNS Echo.debug.xcconfig */,
+				16704782B11DF5EA2E91DA83 /* Pods-APNS Echo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1FF62C4A21C18A0000F2DEB1 = {
 			isa = PBXGroup;
 			children = (
 				1FF62C5521C18A0000F2DEB1 /* APNS Echo */,
 				1FF62C5421C18A0000F2DEB1 /* Products */,
+				05D4EBFA715884F359A1158B /* Pods */,
+				CA555745B99CFF8D64DB325F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,23 @@
 		1FF62C5521C18A0000F2DEB1 /* APNS Echo */ = {
 			isa = PBXGroup;
 			children = (
+				1FF62C6821C18BC800F2DEB1 /* APNS Echo.entitlements */,
 				1FF62C5621C18A0000F2DEB1 /* AppDelegate.swift */,
-				1FF62C5821C18A0000F2DEB1 /* ViewController.swift */,
-				1FF62C5A21C18A0000F2DEB1 /* Main.storyboard */,
+				1FF62C6921C1944700F2DEB1 /* ViewController.swift */,
+				1FF62C5A21C18A0000F2DEB1 /* LaunchScreen.storyboard */,
 				1FF62C5D21C18A0100F2DEB1 /* Assets.xcassets */,
-				1FF62C5F21C18A0100F2DEB1 /* LaunchScreen.storyboard */,
+				1FF62C5F21C18A0100F2DEB1 /* Main.storyboard */,
 				1FF62C6221C18A0100F2DEB1 /* Info.plist */,
 			);
 			path = "APNS Echo";
+			sourceTree = "<group>";
+		};
+		CA555745B99CFF8D64DB325F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23F2BC7864922F4557C39F65 /* Pods_APNS_Echo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +97,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FF62C6521C18A0100F2DEB1 /* Build configuration list for PBXNativeTarget "APNS Echo" */;
 			buildPhases = (
+				595DD8B99A2F26424CAD3694 /* [CP] Check Pods Manifest.lock */,
 				1FF62C4F21C18A0000F2DEB1 /* Sources */,
 				1FF62C5021C18A0000F2DEB1 /* Frameworks */,
 				1FF62C5121C18A0000F2DEB1 /* Resources */,
+				DD16B569CAF31D9BC5E62717 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +124,11 @@
 				TargetAttributes = {
 					1FF62C5221C18A0000F2DEB1 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,20 +155,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF62C6121C18A0100F2DEB1 /* LaunchScreen.storyboard in Resources */,
+				1FF62C6121C18A0100F2DEB1 /* Main.storyboard in Resources */,
 				1FF62C5E21C18A0100F2DEB1 /* Assets.xcassets in Resources */,
-				1FF62C5C21C18A0000F2DEB1 /* Main.storyboard in Resources */,
+				1FF62C5C21C18A0000F2DEB1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		595DD8B99A2F26424CAD3694 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APNS Echo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD16B569CAF31D9BC5E62717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-APNS Echo/Pods-APNS Echo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APNS Echo/Pods-APNS Echo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FF62C4F21C18A0000F2DEB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF62C5921C18A0000F2DEB1 /* ViewController.swift in Sources */,
+				1FF62C6A21C1944700F2DEB1 /* ViewController.swift in Sources */,
 				1FF62C5721C18A0000F2DEB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,20 +215,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1FF62C5A21C18A0000F2DEB1 /* Main.storyboard */ = {
+		1FF62C5A21C18A0000F2DEB1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1FF62C5B21C18A0000F2DEB1 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		1FF62C5F21C18A0100F2DEB1 /* LaunchScreen.storyboard */ = {
+		1FF62C5F21C18A0100F2DEB1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1FF62C6021C18A0100F2DEB1 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -213,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,17 +352,22 @@
 		};
 		1FF62C6621C18A0100F2DEB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C844176F074D075A663BD3 /* Pods-APNS Echo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "APNS Echo/APNS Echo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6S8J5HV3H4;
 				INFOPLIST_FILE = "APNS Echo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toggleable.APNS-Echo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "APNS Echo";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +375,22 @@
 		};
 		1FF62C6721C18A0100F2DEB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16704782B11DF5EA2E91DA83 /* Pods-APNS Echo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "APNS Echo/APNS Echo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6S8J5HV3H4;
 				INFOPLIST_FILE = "APNS Echo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toggleable.APNS-Echo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "APNS Echo";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

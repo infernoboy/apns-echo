@@ -1,0 +1,6 @@
+framework module Pods_APNS_Echo {
+  umbrella header "Pods-APNS Echo-umbrella.h"
+
+  export *
+  module * { export * }
+}
