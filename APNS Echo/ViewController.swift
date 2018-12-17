@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 
 class ViewController: UIViewController {
-	@IBOutlet var threadID: UITextField!
+	@IBOutlet var collapseID: UITextField!
 	@IBOutlet var message: UITextField!
 	@IBOutlet var pushBack: UIButton!
 	
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 		
 		let params:Parameters = [
 			"deviceToken": appDelegate.deviceToken!,
-			"threadID": self.threadID.text!,
+			"collapseID": self.collapseID.text!,
 			"message": self.message.text!
 		]
 		
